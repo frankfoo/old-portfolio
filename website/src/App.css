@@ -23,12 +23,13 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 /* Start here */
 * {
   margin: 0;
   padding: 0;
-  font-family: "IBM Plex Serif";
+  font-family: "Arvo";
 }
 
 .navBar {
@@ -62,6 +63,10 @@
   list-style-type: none;
 }
 
+.navLinks:hover {
+  text-decoration: underline;
+}
+
 .navLinks:visited {
   color: black;
 }
@@ -85,5 +90,11 @@
   }
   .navBar {
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  .navBar-li {
+    font-size: 1.4em;
   }
 }

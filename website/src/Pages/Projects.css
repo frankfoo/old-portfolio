@@ -1,0 +1,33 @@
+.projectsContainer {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.projects-card-container {
+  height: 70vh;
+  width: 80vw;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1vw;
+}
+
+@media only screen and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+  .projects-card-container {
+    grid-template-columns: 1fr;
+  }
+}

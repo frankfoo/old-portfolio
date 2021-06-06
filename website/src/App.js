@@ -41,3 +41,6 @@ function App() {
 }
 
 export default App;
+
+// https://favicon.io/favicon-generator/
+// https://www.pinterest.com.au/pin/82542605655522026/

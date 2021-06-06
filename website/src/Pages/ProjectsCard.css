@@ -1,0 +1,29 @@
+.projectCardContainer {
+  max-height: 100%;
+  max-width: 100%;
+
+  border: 3px solid black;
+  border-radius: 2%;
+  padding: 2vw;
+}
+
+.projectCardTitle {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  margin-bottom: 2vw;
+}
+
+.projectCardTitle:hover {
+  text-decoration: underline;
+}
+
+.projectCardTitle:visited {
+  color: black;
+}
+
+.projectCardContent {
+  padding-top: 0.5vw;
+  font-size: 1em;
+}

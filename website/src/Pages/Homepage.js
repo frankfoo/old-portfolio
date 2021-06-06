@@ -8,7 +8,7 @@ function Homepage() {
         <div className='content-left'>
         </div>
         <div className='content-right'>
-          <p>Hi! I'm Frank, a recent graduate of UNSW with a bachelors in computer science. I'm interested in front end development and cyber security. Welcome to my website!</p>
+          <p>Hi! I'm Frank, a recent graduate of UNSW with a bachelors in Computer Science. I'm interested in front end development and cyber security. Welcome to my website!</p>
         </div>
       </div>
     </div>

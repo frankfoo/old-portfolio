@@ -1,0 +1,40 @@
+.contactContainer {
+  min-height: 100%;
+  height: 88vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  height: 80vh;
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 2.2em;
+  padding-bottom: 0.5em;
+}
+
+.contact-text {
+  font-size: 1.4em;
+  padding-bottom: 0.5em;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  padding-bottom: 0.5em;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+.contact-link:visited {
+  color: black;
+}
